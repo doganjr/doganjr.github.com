@@ -23,18 +23,21 @@ Developed various reinforcement learning-based navigation algorithms to realize 
 
  I supervised a group of undergraduate students for the EEE493/494-Industrial Design Project course and collaborated with Bilkent University. The aim of the project is to navigate an autonomous vehicle that includes Lidar, ZED Camera, and IMU sensors for a point-to-point navigation task by using end-to-end deep reinforcement learning. I also help them with the coding process of the project.
 
-
 [Video1](https://drive.google.com/file/d/1cydSGHRMMQOVA6G1NzMHNKAsRVR-L5H2/view?usp=sharing)
 [Video2](https://drive.google.com/file/d/11ppiVDL1N6hPjpOGDdNeiUHCq9OpRh_J/view?usp=sharing)
 [Video3](https://drive.google.com/file/d/1hQEWFOX1yEn9SXGDKCd9fzIOXB6aueHV/view?usp=sharing)
 [Video4](https://drive.google.com/file/d/1ccViVKb2jcc8qpcFWS8wiwZjHxQe9GX8/view?usp=sharing)
 [Video5](https://drive.google.com/file/d/1zRpX37QBUa9kl7-plpKz8mWobSLt5BX3/view?usp=sharing)
 
+Research Output:
+[Paper](https://doganjr.github.io/files/cicek_navtd3.pdf)
+[Code & Performance](https://github.com/doganjr/navTD3)
+
 # MarioDQN
 
 <img src="/files/mariodqn.png" width="500" height="500" />
 
-Developed a Mario Agent that uses a variant of the DQN algorithm to accomplish the first stage of the first world of the Mario Game. I utilize Multi Step returns, Frame Stacking, and add more components to the default Reward Function of the learning environment. In the framework of this project, I presented most recent advances in Deep Reinforcement Learning and gave more details on "How to build a DQN agent", some challenges that may occur, and how to solve them. Here is my presentation record (In Turkish): [YouTube Link](https://www.youtube.com/watch?v=d-zQrNVGfFg)
+Developed a Mario Agent that uses a variant of the DQN algorithm to accomplish the first stage of the first world of the Mario Game. I utilize Multi Step returns, Frame Stacking, and add more components to the default Reward Function of the learning environment. In the framework of this project, I presented most recent advances in Deep Reinforcement Learning and gave more details on "How to build a DQN agent", some challenges that may occur, and how to solve them. Here is my presentation record (In Turkish): [YouTube Link](https://www.youtube.com/watch?v=d-zQrNVGfFg) [Code & Performance](https://github.com/doganjr/MarioDQN)
 
 # Spatio-temporal Crime Analysis and Prediction (Databoss Inc.)
 
