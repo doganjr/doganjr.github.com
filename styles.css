@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the height of the HTML and BODY */
+    min-height: 100vh; /* Ensures minimum height of the viewport for the whole document */
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('blole2.png'); /* Update this path as needed */
+    background-size: cover; /* Ensures the background covers the entire element */
+    background-repeat: repeat-y; /* Allows the background to repeat vertically */
+    color: #FFD700; /* Golden yellow text color */
+}
+
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #FFD700;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0; /* Position navbar at the bottom */
+    z-index: 1000;
+    justify-content: flex-start;
+}
+
+.navbar a {
+    color: #FFD700;
+    text-decoration: none;
+    margin-right: 5px; /* Reduced spacing between nav items */
+    margin-top: 10px;
+    font-size: 28px; /* Slightly larger font size for navbar links */
+    padding: 10px 15px; /* Padding for better touch area and visibility */
+}
+
+.content {
+    margin-top: 80px; /* Increased to accommodate the bigger navbar */
+    padding: 20px;
+    background: transparent;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 24px; /* Larger size for main headers */
+    color: #FFD700; /* Golden yellow color */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 100%; /* Smaller size for secondary headers */
+    color: #CCCCCC; /* Light gray color */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px; /* Comfortable reading size for text */
+    color: #FFFFFF; /* White color text for readability */
+    line-height: 1.6; /* Spacing between lines */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+}
+
+body {
+    overscroll-behavior: none;
+}
+
+/* Adjustments to ensure styles apply */
+* {
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Flexbox styles for image container */
+.image-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: bottom; /* Centers the images horizontally */
+    gap: 10px; /* Adds some space between the images */
+}
+
+.left-image {
+    height: 55%;
+    width: 55%; /* Image on the left takes up 55% of the container's width */
+    display: block; /* Removes bottom space between images */
+}
+
+.right-image {
+    height: 45%;
+    width: 45%; /* Image on the right takes up 45% of the container's width */
+    display: block; /* Removes bottom space between images */
+}
