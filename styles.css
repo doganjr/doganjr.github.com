@@ -1,14 +1,18 @@
-body, html {
+
+
+html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensures the height of the HTML and BODY */
-    min-height: 100vh; /* Ensures minimum height of the viewport for the whole document */
+    height: 100%;
     width: 100%;
     font-family: Arial, sans-serif;
-    background-image: url('blole2.png'); /* Update this path as needed */
-    background-size: cover; /* Ensures the background covers the entire element */
-    background-repeat: repeat-y; /* Allows the background to repeat vertically */
-    color: #FFD700; /* Golden yellow text color */
+    color: #FFD700; /* Default text color set to white */
+    background-image: url('blole2.png'); /* Add your background image here */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Centers the background image */
+    overflow-x: hidden; /* Prevents horizontal overflow */
 }
 
 
