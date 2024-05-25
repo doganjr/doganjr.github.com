@@ -98,3 +98,22 @@ body {
     width: 45%; /* Image on the right takes up 45% of the container's width */
     display: block; /* Removes bottom space between images */
 }
+
+
+/* Styles for the video container */
+.video-container {
+    max-width: 100%;
+    margin: 20px 0; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 560px; /* Adjust as needed */
+    height: 315px; /* Adjust as needed */
+}
+
+
+
+
